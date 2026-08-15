@@ -36,16 +36,23 @@ const prayush = {
 
 ### 🛍️ PSPerfume
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Prayush-Shrestha&repo=PSPerfume&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&bg_color=0d1117" alt="PSPerfume"/>
+
+| | |
+|---|---|
+| 🏷️ **Repo** | [Prayush-Shrestha/PSPerfume](https://github.com/Prayush-Shrestha/PSPerfume) |
+| 🌐 **Language** | TypeScript |
+| 🚧 **Status** | Frontend complete — backend in progress |
+
 </div>
 
-Full-stack e-commerce perfume shop built with Next.js App Router, featuring Clerk authentication and cart/order persistence.
+E-commerce perfume shop built with Next.js App Router and Clerk authentication. Frontend (UI, cart, Clerk auth flow) is finished — currently building out the backend.
 
 | Layer      | Technology            |
 |------------|------------------------|
 | Frontend   | Next.js, TypeScript, Tailwind CSS |
 | Auth       | Clerk                 |
-| Storage    | localStorage (cart/orders) |
+| Backend    | 🚧 In progress          |
+| Storage    | localStorage (cart/orders, temporary until backend is live) |
 
 🔗 [Code](https://github.com/Prayush-Shrestha/PSPerfume)
 
@@ -53,7 +60,12 @@ Full-stack e-commerce perfume shop built with Next.js App Router, featuring Cler
 
 ### 💰 Expense Tracker
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Prayush-Shrestha&repo=Expense-Tracker&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&bg_color=0d1117" alt="Expense Tracker"/>
+
+| | |
+|---|---|
+| 🏷️ **Repo** | [Prayush-Shrestha/Expense-Tracker](https://github.com/Prayush-Shrestha/Expense-Tracker) |
+| 🌐 **Language** | JavaScript |
+
 </div>
 
 Frontend application for tracking personal expenses and calculating balances in real-time, built with vanilla JavaScript.
@@ -121,7 +133,7 @@ Frontend application for tracking personal expenses and calculating balances in 
 
 <div align="center">
   <a href="https://github.com/Prayush-Shrestha"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="https://linkedin.com/in/prayush"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/prayushshrestha07/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 </div>
 
 <br/>
