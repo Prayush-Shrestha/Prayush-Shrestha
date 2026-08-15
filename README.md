@@ -13,23 +13,6 @@
 
 </div>
 
-## 🧾 Who I Am
-
-```ts
-const prayush = {
-  title: "CS Student",
-  location: "Kathmandu, Nepal",
-  stack: ["JavaScript", "TypeScript", "Python", "Java", "C/C++"],
-  frameworks: ["React", "Next.js", "Node.js"],
-  interests: ["Web Development", "Embedded Systems", "Hardware Security", "Cloud & Data"],
-  currentlyLearning: ["Data Engineering", "Machine Learning", "AWS Cloud"],
-  status: "Pursuing BSc (Hons) Computing @ Islington College",
-  funFact: "Debugging hardware sharpens the same instincts as debugging code",
-};
-```
-
-<br/>
-
 ## 🚀 Featured Projects
 
 ### 🛍️ PSPerfume
