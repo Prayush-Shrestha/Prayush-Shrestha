@@ -61,8 +61,8 @@ Tracks personal expenses and calculates balances in real-time, built with vanill
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Prayush-Shrestha&show_icons=true&theme=nord&border_color=7dd3fc&title_color=7dd3fc&icon_color=7dd3fc&text_color=c9d1d9&bg_color=0d1117&hide_border=false" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prayush-Shrestha&layout=compact&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&bg_color=0d1117&hide_border=false" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api?username=Prayush-Shrestha&show_icons=true&theme=nord&border_color=7dd3fc&title_color=7dd3fc&icon_color=7dd3fc&text_color=c9d1d9&bg_color=0d1117&hide_border=false" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Prayush-Shrestha&layout=compact&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&bg_color=0d1117&hide_border=false" />
 </div>
 
 <br/>
