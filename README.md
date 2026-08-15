@@ -120,10 +120,6 @@ Frontend application for tracking personal expenses and calculating balances in 
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Prayush-Shrestha&theme=nord&no-frame=true&no-bg=true&row=1&margin-w=15" alt="Trophies"/>
-</div>
-
-<div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Prayush-Shrestha&theme=react-dark&hide_border=true&color=7dd3fc&line=7dd3fc&point=ffffff&area=true&area_color=7dd3fc" alt="Activity Graph"/>
 </div>
 
@@ -132,7 +128,7 @@ Frontend application for tracking personal expenses and calculating balances in 
 ## 🔗 Connect
 
 <div align="center">
-  <a href="https://github.com/Prayush-Shrestha"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/Prayush-Shrestha"><img src="https://img.shields.io/badge/GitHub-Prayush--Shrestha-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=181717" /></a>
   <a href="https://www.linkedin.com/in/prayushshrestha07/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 </div>
 
