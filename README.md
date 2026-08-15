@@ -2,7 +2,7 @@
 
 # Hi 👋, I'm Prayush Shrestha
 
-### CS Student
+
 
 ---
 
