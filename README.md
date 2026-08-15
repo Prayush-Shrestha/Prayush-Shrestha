@@ -13,8 +13,6 @@
 
 </div>
 
-<br/>
-
 ## 🧾 Who I Am
 
 ```ts
