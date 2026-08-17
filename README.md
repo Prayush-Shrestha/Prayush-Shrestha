@@ -218,22 +218,6 @@ I am particularly interested in:
 
 ---
 
-#  What I Build
-
-```text
- Web Applications
-        ↓
- React / Next.js
-        ↓
- Databases & APIs
-        ↓
- Data Analysis
-        ↓
- Dashboards & Business Insights
-```
-
----
-
 #  Connect With Me
 
 <div align="center">
