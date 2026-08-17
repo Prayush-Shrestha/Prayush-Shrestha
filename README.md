@@ -1,3 +1,4 @@
+````markdown
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:7dd3fc&height=200&section=header&text=Prayush%20Shrestha&fontSize=48&fontColor=ffffff&animation=twinkling&fontAlignY=45" width="100%"/>
@@ -21,11 +22,11 @@ I'm **Prayush Shrestha**, a Computing student interested in **web development, d
 
 I enjoy building practical projects, creating responsive user interfaces, working with databases, and exploring data through dashboards and visualizations.
 
-*  BSc (Hons) Computing
-*  Interested in Web Development & Data Analysis
-*  Currently working with Next.js, React, TypeScript and JavaScript
-*  Exploring Python, Pandas, Power BI and data visualization
-*  Working with MySQL and other database technologies
+-  BSc (Hons) Computing
+-  Interested in Web Development & Data Analysis
+-  Currently working with Next.js, React, TypeScript and JavaScript
+-  Exploring Python, Pandas, Power BI and data visualization
+-  Working with MySQL and other database technologies
 
 ---
 
@@ -37,13 +38,13 @@ A modern luxury perfume e-commerce website built with **Next.js, TypeScript and 
 
 **Features:**
 
-* Product browsing
-* Product search
-* Shopping cart
-* Quantity management
-* User authentication
-* Order history
-* Responsive luxury UI
+- Product browsing
+- Product search
+- Shopping cart
+- Quantity management
+- User authentication
+- Order history
+- Responsive luxury UI
 
 **Tech:** Next.js · TypeScript · React · Tailwind CSS · Clerk
 
@@ -57,18 +58,18 @@ A modern and responsive multi-page business website designed to showcase company
 
 **Features:**
 
-* Responsive design
-* Business landing page
-* About page
-* Portfolio
-* Blog
-* Pricing
-* FAQ
-* Contact page
+- Responsive design
+- Business landing page
+- About page
+- Portfolio
+- Blog
+- Pricing
+- FAQ
+- Contact page
 
 **Tech:** HTML · CSS · JavaScript
 
-🔗 **Repository:** https://github.com/Prayush-Shrestha/Modern-Business
+ **Repository:** https://github.com/Prayush-Shrestha/Modern-Business
 
 ---
 
@@ -78,34 +79,55 @@ A simple personal expense management application built with vanilla JavaScript.
 
 **Features:**
 
-* Add expenses
-* Track spending
-* Calculate balances
-* Dynamic updates
-* Simple responsive interface
+- Add expenses
+- Track spending
+- Calculate balances
+- Dynamic updates
+- Simple responsive interface
 
 **Tech:** HTML · CSS · JavaScript
 
-🔗 **Repository:** https://github.com/Prayush-Shrestha/Expense-Tracker
+ **Repository:** https://github.com/Prayush-Shrestha/Expense-Tracker
 
 ---
 
-##  Inventory / Medicine Management System
+##  Calculator
+
+A simple and responsive calculator web application designed to perform basic mathematical operations with a clean and user-friendly interface.
+
+**Features:**
+
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Decimal calculations
+- Clear and reset functionality
+- Responsive user interface
+- Simple and easy-to-use design
+
+**Tech:** HTML · CSS · JavaScript
+
+ **Repository:** https://github.com/Prayush-Shrestha/calculator
+
+---
+
+## Inventory / Medicine Management System
 
 A Python-based inventory management project designed to manage medicine and inventory records.
 
 **Features:**
 
-* Read inventory records
-* Add and update medicine information
-* Manage stock
-* Search inventory
-* File-based data storage
-* Inventory operations
+- Read inventory records
+- Add and update medicine information
+- Manage stock
+- Search inventory
+- File-based data storage
+- Inventory operations
 
 **Tech:** Python
 
- **Repository:** https://github.com/Prayush-Shrestha
+ **GitHub:** https://github.com/Prayush-Shrestha
 
 ---
 
@@ -115,16 +137,16 @@ A database-driven management system designed for restaurant operations and acade
 
 **Project concepts include:**
 
-* Data Flow Diagrams
-* Entity Relationship Diagrams
-* Structure Charts
-* Data Dictionary
-* System design
-* Database management
+- Data Flow Diagrams
+- Entity Relationship Diagrams
+- Structure Charts
+- Data Dictionary
+- System design
+- Database management
 
 **Tech:** Java · JSP · MySQL · HTML · CSS
 
- **Repository:** https://github.com/Prayush-Shrestha
+ **GitHub:** https://github.com/Prayush-Shrestha
 
 ---
 
@@ -134,16 +156,26 @@ Projects focused on **data cleaning, analysis, visualization and business insigh
 
 **Tools & technologies:**
 
-* Python
-* Pandas
-* Plotly
-* Power BI
-* MySQL
-* Data visualization
+- Python
+- Pandas
+- Plotly
+- Power BI
+- MySQL
+- Data Visualization
 
-Typical workflow:
+### Typical Workflow
 
-`Data Collection → Data Cleaning → Data Analysis → Visualization → Insights`
+```text
+Data Collection
+      ↓
+Data Cleaning
+      ↓
+Data Analysis
+      ↓
+Visualization
+      ↓
+Business Insights
+````
 
  **GitHub:** https://github.com/Prayush-Shrestha
 
@@ -247,3 +279,5 @@ Feel free to explore my repositories and projects.
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7dd3fc,100:0f172a&height=120&section=footer" width="100%"/>
+
+
