@@ -17,7 +17,7 @@
 
 ##  About Me
 
-I'm **Prayush Shrestha**, a Computing student interested in **web development, data analytics, and  business analytics **.
+I'm **Prayush Shrestha**, a Computing student interested in "web development, data analytics, and  business analytics ".
 
 I enjoy building practical projects, creating responsive user interfaces, working with databases, and exploring data through dashboards and visualizations.
 
