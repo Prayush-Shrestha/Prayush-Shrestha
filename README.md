@@ -9,29 +9,49 @@
 <br/><br/>
 
 <img src="https://komarev.com/ghpvc/?username=Prayush-Shrestha&label=Profile%20Views&color=7dd3fc&style=flat-square" alt="Profile views"/>
+
 <img src="https://img.shields.io/github/followers/Prayush-Shrestha?label=Followers&style=flat-square&color=7dd3fc" alt="Followers"/>
 
 </div>
 
 <br/>
 
-##  About Me
+## About Me
 
-I'm **Prayush Shrestha**, a Computing student interested in "web development, data analytics and  business analytics ".
+I'm **Prayush Shrestha**, a Computing student interested in **Web Development, Data Analysis and Business Analytics**.
 
 I enjoy building practical projects, creating responsive user interfaces, working with databases, and exploring data through dashboards and visualizations.
 
-*  BSc (Hons) Computing
-*  Interested in Web Development & Data Analysis
-*  Currently working with Next.js, React, TypeScript and JavaScript
-*  Exploring Python, Pandas, Power BI and data visualization
-*  Working with MySQL and other database technologies
+* BSc (Hons) Computing
+* Interested in Web Development & Data Analysis
+* Currently working with Next.js, React, TypeScript and JavaScript
+* Exploring Python, Pandas, Power BI and Data Visualization
+* Working with MySQL and other database technologies
 
 ---
 
-#  Featured Projects
+# Featured Projects
 
-##  PSPerfume
+## Neighborly
+
+A modern community-focused web application designed to connect users with local services, resources and community activities.
+
+**Features:**
+
+* Responsive user interface
+* Modern dashboard
+* Community-focused functionality
+* User-friendly navigation
+* Interactive components
+* Responsive design
+
+**Tech:** React · JavaScript · HTML · CSS
+
+**Repository:** https://github.com/yogeshpan1/Neighborly
+
+---
+
+## PSPerfume
 
 A modern luxury perfume e-commerce website built with **Next.js, TypeScript and Tailwind CSS**.
 
@@ -47,11 +67,49 @@ A modern luxury perfume e-commerce website built with **Next.js, TypeScript and 
 
 **Tech:** Next.js · TypeScript · React · Tailwind CSS · Clerk
 
- **Repository:** https://github.com/Prayush-Shrestha/PSPerfume
+**Repository:** https://github.com/Prayush-Shrestha/PSPerfume
 
 ---
 
-##  Modern Business Website
+## WeCare Store
+
+An e-commerce store project designed to provide a modern online shopping experience with product browsing and responsive user interfaces.
+
+**Features:**
+
+* Product browsing
+* Product listing
+* Shopping interface
+* Responsive design
+* Interactive components
+* Modern user interface
+
+**Tech:** React · JavaScript · HTML · CSS
+
+**Repository:** https://github.com/Prayush-Shrestha/Wecare-Store
+
+---
+
+## Expense Tracker
+
+A personal expense management application built with vanilla JavaScript to help users track expenses and manage their spending.
+
+**Features:**
+
+* Add expenses
+* Track spending
+* Calculate balances
+* Dynamic updates
+* Expense management
+* Responsive interface
+
+**Tech:** HTML · CSS · JavaScript
+
+**Repository:** https://github.com/Prayush-Shrestha/Expense-Tracker
+
+---
+
+## Modern Business Website
 
 A modern and responsive multi-page business website designed to showcase company services, portfolio, pricing, blogs and contact information.
 
@@ -68,88 +126,31 @@ A modern and responsive multi-page business website designed to showcase company
 
 **Tech:** HTML · CSS · JavaScript
 
-🔗 **Repository:** https://github.com/Prayush-Shrestha/Modern-Business
+**Repository:** https://github.com/Prayush-Shrestha/Modern-Business
 
 ---
 
-##  Expense Tracker
+## Calculator
 
-A simple personal expense management application built with vanilla JavaScript.
+A simple and responsive calculator application built with HTML, CSS and JavaScript.
 
 **Features:**
 
-* Add expenses
-* Track spending
-* Calculate balances
-* Dynamic updates
-* Simple responsive interface
+* Addition
+* Subtraction
+* Multiplication
+* Division
+* Interactive buttons
+* Dynamic calculations
+* Responsive interface
 
 **Tech:** HTML · CSS · JavaScript
 
-🔗 **Repository:** https://github.com/Prayush-Shrestha/Expense-Tracker
+**Repository:** https://github.com/Prayush-Shrestha/calculator
 
 ---
 
-##  Inventory / Medicine Management System
-
-A Python-based inventory management project designed to manage medicine and inventory records.
-
-**Features:**
-
-* Read inventory records
-* Add and update medicine information
-* Manage stock
-* Search inventory
-* File-based data storage
-* Inventory operations
-
-**Tech:** Python
-
- **Repository:** https://github.com/Prayush-Shrestha
-
----
-
-##  Gokyo Bistro Management System
-
-A database-driven management system designed for restaurant operations and academic software development.
-
-**Project concepts include:**
-
-* Data Flow Diagrams
-* Entity Relationship Diagrams
-* Structure Charts
-* Data Dictionary
-* System design
-* Database management
-
-**Tech:** Java · JSP · MySQL · HTML · CSS
-
- **Repository:** https://github.com/Prayush-Shrestha
-
----
-
-##  Data Analysis & Dashboard Projects
-
-Projects focused on **data cleaning, analysis, visualization and business insights**.
-
-**Tools & technologies:**
-
-* Python
-* Pandas
-* Plotly
-* Power BI
-* MySQL
-* Data visualization
-
-Typical workflow:
-
-`Data Collection → Data Cleaning → Data Analysis → Visualization → Insights`
-
- **GitHub:** https://github.com/Prayush-Shrestha
-
----
-
-#  Tech Stack
+# Tech Stack
 
 <div align="center">
 
@@ -173,7 +174,7 @@ Typical workflow:
 
 ---
 
-#  Data & Analytics
+# Data & Analytics
 
 <div align="center">
 
@@ -183,30 +184,33 @@ Typical workflow:
 
 I am particularly interested in:
 
-*  Data Analysis
-*  Pandas
-*  Power BI
-*  Data Visualization
-*  SQL & MySQL
-*  Business Intelligence
-*  Data Cleaning
+* Data Analysis
+* Pandas
+* Power BI
+* Data Visualization
+* SQL & MySQL
+* Business Intelligence
+* Data Cleaning
+* Exploratory Data Analysis
 
 ---
 
-#  Currently Learning
+# Currently Learning
 
 * Next.js
 * Full-Stack Web Development
 * Advanced JavaScript & TypeScript
 * Data Analysis with Python
+* Pandas
 * Power BI
 * SQL
 * Database Design
 * Cloud Technologies
+* Business Intelligence
 
 ---
 
-#  GitHub Stats
+# GitHub Stats
 
 <div align="center">
 
@@ -218,7 +222,7 @@ I am particularly interested in:
 
 ---
 
-#  Connect With Me
+# Connect With Me
 
 <div align="center">
 
@@ -241,3 +245,5 @@ I am particularly interested in:
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7dd3fc,100:0f172a&height=120&section=footer" width="100%"/>
+
+</div>
