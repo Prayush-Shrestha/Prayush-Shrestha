@@ -209,6 +209,9 @@ I am particularly interested in:
 
 * Data Analysis
 * Pandas
+* Numpy
+* Matpliot
+* Seaborn
 * Power BI
 * Data Visualization
 * SQL & MySQL
