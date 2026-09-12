@@ -201,17 +201,39 @@ A simple and responsive web application that allows users to convert amounts bet
 
 <img src="https://skillicons.dev/icons?i=js,ts,python,java,cpp" />
 
+<br/>
+
+**JavaScript · TypeScript · Python · Java · C++**
+
+<br/><br/>
+
 ### Frontend
 
 <img src="https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind" />
+
+<br/>
+
+**HTML · CSS · React · Next.js · Tailwind CSS**
+
+<br/><br/>
 
 ### Backend & Database
 
 <img src="https://skillicons.dev/icons?i=nodejs,express,mysql,prisma" />
 
+<br/>
+
+**Node.js · Express.js · MySQL · Prisma**
+
+<br/><br/>
+
 ### Tools & Platforms
 
 <img src="https://skillicons.dev/icons?i=git,github,vscode,aws" />
+
+<br/>
+
+**Git · GitHub · Visual Studio Code · AWS**
 
 </div>
 
@@ -223,13 +245,17 @@ A simple and responsive web application that allows users to convert amounts bet
 
 <img src="https://skillicons.dev/icons?i=python,mysql" />
 
+<br/>
+
+**Python · MySQL**
+
 </div>
 
 I am particularly interested in:
 
 * Data Analysis
 * Pandas
-* Numpy
+* NumPy
 * Matplotlib
 * Seaborn
 * Power BI
