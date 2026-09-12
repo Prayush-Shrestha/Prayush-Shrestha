@@ -173,6 +173,26 @@ A simple and responsive calculator application built with HTML, CSS and JavaScri
 
 ---
 
+## Currency Converter
+
+A simple and responsive web application that allows users to convert amounts between different currencies.
+
+**Features:**
+
+* Select source currency
+* Select target currency
+* Enter amount for conversion
+* Convert between different currencies
+* Dynamic currency selection
+* Responsive user interface
+* Simple and user-friendly design
+
+**Tech:** HTML · CSS · JavaScript
+
+**Repository:** [**Currency**](https://github.com/Prayush-Shrestha/Currency)
+
+---
+
 # Tech Stack
 
 <div align="center">
