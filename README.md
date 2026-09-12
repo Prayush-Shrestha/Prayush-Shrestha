@@ -8,10 +8,6 @@
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=Prayush-Shrestha&label=Profile%20Views&color=7dd3fc&style=flat-square" alt="Profile views"/>
-
-<img src="https://img.shields.io/github/followers/Prayush-Shrestha?label=Followers&style=flat-square&color=7dd3fc" alt="Followers"/>
-
 </div>
 
 <br/>
