@@ -201,39 +201,39 @@ A simple and responsive web application that allows users to convert amounts bet
 
 <img src="https://skillicons.dev/icons?i=js,ts,python,java,cpp" />
 
+<p>
+JavaScript · TypeScript · Python · Java · C++
+</p>
+
 <br/>
-
-**JavaScript · TypeScript · Python · Java · C++**
-
-<br/><br/>
 
 ### Frontend
 
 <img src="https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind" />
 
+<p>
+HTML5 · CSS3 · React · Next.js · Tailwind CSS
+</p>
+
 <br/>
-
-**HTML · CSS · React · Next.js · Tailwind CSS**
-
-<br/><br/>
 
 ### Backend & Database
 
 <img src="https://skillicons.dev/icons?i=nodejs,express,mysql,prisma" />
 
+<p>
+Node.js · Express.js · MySQL · Prisma
+</p>
+
 <br/>
-
-**Node.js · Express.js · MySQL · Prisma**
-
-<br/><br/>
 
 ### Tools & Platforms
 
 <img src="https://skillicons.dev/icons?i=git,github,vscode,aws" />
 
-<br/>
-
-**Git · GitHub · Visual Studio Code · AWS**
+<p>
+Git · GitHub · Visual Studio Code · AWS
+</p>
 
 </div>
 
@@ -243,11 +243,11 @@ A simple and responsive web application that allows users to convert amounts bet
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,mysql" />
+<img src="https://skillicons.dev/icons?i=python,mysql,powerbi" />
 
-<br/>
-
-**Python · MySQL**
+<p>
+Python · MySQL · Power BI
+</p>
 
 </div>
 
