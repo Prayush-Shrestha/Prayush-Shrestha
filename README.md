@@ -195,208 +195,56 @@ A simple and responsive web application that allows users to convert amounts bet
 
 # Tech Stack
 
-## Programming Languages
-
 <div align="center">
 
-<table>
-<tr>
+### Programming Languages
 
-<td align="center">
-<img src="https://skillicons.dev/icons?i=js" width="60"/><br/>
-<b>JavaScript</b>
-</td>
+<img src="https://skillicons.dev/icons?i=js,ts,python,java,cpp" />
 
-<td align="center">
-<img src="https://skillicons.dev/icons?i=ts" width="60"/><br/>
-<b>TypeScript</b>
-</td>
+<br/><br/>
 
-<td align="center">
-<img src="https://skillicons.dev/icons?i=python" width="60"/><br/>
-<b>Python</b>
-</td>
+### Frontend
 
-<td align="center">
-<img src="https://skillicons.dev/icons?i=java" width="60"/><br/>
-<b>Java</b>
-</td>
+<img src="https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind" />
 
-<td align="center">
-<img src="https://skillicons.dev/icons?i=cpp" width="60"/><br/>
-<b>C++</b>
-</td>
+<br/><br/>
 
-</tr>
-</table>
+### Backend & Database
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,mysql,prisma" />
+
+<br/><br/>
+
+### Tools & Platforms
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,aws" />
 
 </div>
 
 ---
 
-## Frontend
+# Data & Analytics
 
 <div align="center">
 
-<table>
-<tr>
-
-<td align="center">
-<img src="https://skillicons.dev/icons?i=html" width="60"/><br/>
-<b>HTML</b>
-</td>
-
-<td align="center">
-<img src="https://skillicons.dev/icons?i=css" width="60"/><br/>
-<b>CSS</b>
-</td>
-
-<td align="center">
-<img src="https://skillicons.dev/icons?i=react" width="60"/><br/>
-<b>React</b>
-</td>
-
-<td align="center">
-<img src="https://skillicons.dev/icons?i=nextjs" width="60"/><br/>
-<b>Next.js</b>
-</td>
-
-<td align="center">
-<img src="https://skillicons.dev/icons?i=tailwind" width="60"/><br/>
-<b>Tailwind CSS</b>
-</td>
-
-</tr>
-</table>
-
-</div>
-
----
-
-## Backend & Database
-
-<div align="center">
-
-<table>
-<tr>
-
-<td align="center">
-<img src="https://skillicons.dev/icons?i=nodejs" width="60"/><br/>
-<b>Node.js</b>
-</td>
-
-<td align="center">
-<img src="https://skillicons.dev/icons?i=express" width="60"/><br/>
-<b>Express.js</b>
-</td>
-
-<td align="center">
-<img src="https://skillicons.dev/icons?i=mysql" width="60"/><br/>
-<b>MySQL</b>
-</td>
-
-<td align="center">
-<img src="https://skillicons.dev/icons?i=prisma" width="60"/><br/>
-<b>Prisma</b>
-</td>
-
-</tr>
-</table>
-
-</div>
-
----
-
-## Data & Analytics
-
-<div align="center">
-
-<table>
-<tr>
-
-<td align="center">
-<img src="https://skillicons.dev/icons?i=python" width="60"/><br/>
-<b>Python</b>
-</td>
-
-<td align="center">
-<img src="https://skillicons.dev/icons?i=pandas" width="60"/><br/>
-<b>Pandas</b>
-</td>
-
-<td align="center">
-<img src="https://skillicons.dev/icons?i=numpy" width="60"/><br/>
-<b>NumPy</b>
-</td>
-
-<td align="center">
-<img src="https://skillicons.dev/icons?i=matplotlib" width="60"/><br/>
-<b>Matplotlib</b>
-</td>
-
-<td align="center">
-<img src="https://skillicons.dev/icons?i=seaborn" width="60"/><br/>
-<b>Seaborn</b>
-</td>
-
-<td align="center">
-<img src="https://skillicons.dev/icons?i=powerbi" width="60"/><br/>
-<b>Power BI</b>
-</td>
-
-</tr>
-</table>
+<img src="https://skillicons.dev/icons?i=python,pandas,numpy,matplotlib,seaborn,powerbi,mysql" />
 
 </div>
 
 I am particularly interested in:
 
 * Data Analysis
-* Data Cleaning
-* Exploratory Data Analysis
+* Python
 * Pandas
 * NumPy
 * Matplotlib
 * Seaborn
 * Power BI
-* Data Visualization
 * SQL & MySQL
+* Data Visualization
 * Business Intelligence
-* Dashboard Development
-
----
-
-## Tools & Platforms
-
-<div align="center">
-
-<table>
-<tr>
-
-<td align="center">
-<img src="https://skillicons.dev/icons?i=git" width="60"/><br/>
-<b>Git</b>
-</td>
-
-<td align="center">
-<img src="https://skillicons.dev/icons?i=github" width="60"/><br/>
-<b>GitHub</b>
-</td>
-
-<td align="center">
-<img src="https://skillicons.dev/icons?i=vscode" width="60"/><br/>
-<b>VS Code</b>
-</td>
-
-<td align="center">
-<img src="https://skillicons.dev/icons?i=aws" width="60"/><br/>
-<b>AWS</b>
-</td>
-
-</tr>
-</table>
-
-</div>
+* Data Cleaning
+* Exploratory Data Analysis
 
 ---
 
