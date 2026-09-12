@@ -230,7 +230,7 @@ I am particularly interested in:
 * Data Analysis
 * Pandas
 * Numpy
-* Matpliot
+* Matplotlib
 * Seaborn
 * Power BI
 * Data Visualization
