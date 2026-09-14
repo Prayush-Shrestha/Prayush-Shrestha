@@ -19,7 +19,7 @@ I'm **Prayush Shrestha**, a Computing student interested in **Web Development, D
 I enjoy building practical projects, creating responsive user interfaces, working with databases, and exploring data through dashboards and visualizations.
 
 * BSc (Hons) Computing
-* Interested in Web Development & Data Analysis
+* Interested in Web Development, Data Analysis, Data Engineering and AI/ML
 * Currently working with Next.js, React, TypeScript and JavaScript
 * Exploring Python, Pandas, Power BI and Data Visualization
 * Working with MySQL, MongoDB and other database technologies
