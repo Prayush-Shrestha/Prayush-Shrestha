@@ -275,6 +275,7 @@ I am particularly interested in:
 # Currently Learning
 
 * Next.js
+* React
 * Full-Stack Web Development
 * Advanced JavaScript & TypeScript
 * Data Analysis with Python
