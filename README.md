@@ -22,7 +22,7 @@ I enjoy building practical projects, creating responsive user interfaces, workin
 * Interested in Web Development & Data Analysis
 * Currently working with Next.js, React, TypeScript and JavaScript
 * Exploring Python, Pandas, Power BI and Data Visualization
-* Working with MySQL and other database technologies
+* Working with MySQL, MongoDB and other database technologies
 
 ---
 
@@ -51,6 +51,35 @@ A full-stack task management web application designed to help users organize pro
 
 ---
 
+## PSPerfume
+
+A full-stack perfume e-commerce web application built with **Next.js, React, TypeScript, Node.js, Express.js and MongoDB**.
+
+The application provides a modern shopping experience where users can browse perfumes, search for products, view product details, manage their cart, and view their order history.
+
+**Features:**
+
+* Product browsing
+* Product search
+* Product details
+* Shopping cart
+* Quantity management
+* User login and signup
+* User profile
+* Order history
+* Responsive user interface
+* Product and order management
+
+**Authentication:**
+
+**Clerk** is used for the login and signup system. Clerk provides secure, ready-to-use authentication and makes user registration, login, and account management easier to implement.
+
+**Tech:** Next.js · React · TypeScript · Node.js · Express.js · MongoDB · Mongoose · Clerk
+
+**Repository:** [**PSPerfume**](https://github.com/Prayush-Shrestha/PSPerfume)
+
+---
+
 ## Neighborly
 
 A modern community-focused web application designed to connect users with local services, resources and community activities.
@@ -67,26 +96,6 @@ A modern community-focused web application designed to connect users with local 
 **Tech:** React · JavaScript · HTML · CSS
 
 **Repository:** [**Neighborly**](https://github.com/yogeshpan1/Neighborly)
-
----
-
-## PSPerfume
-
-A modern luxury perfume e-commerce website built with **Next.js, TypeScript and Tailwind CSS**.
-
-**Features:**
-
-* Product browsing
-* Product search
-* Shopping cart
-* Quantity management
-* User authentication
-* Order history
-* Responsive luxury UI
-
-**Tech:** Next.js · TypeScript · React · Tailwind CSS · Clerk
-
-**Repository:** [**PSPerfume**](https://github.com/Prayush-Shrestha/PSPerfume)
 
 ---
 
@@ -215,11 +224,11 @@ HTML5 · CSS3 · React · Next.js · Tailwind CSS
 
 ### Backend & Database
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,mysql,prisma" />
+<img src="https://skillicons.dev/icons?i=nodejs,express,mysql,mongodb" />
 
 <br/>
 
-Node.js · Express.js · MySQL · Prisma
+Node.js · Express.js · MySQL · MongoDB
 
 <br/><br/>
 
