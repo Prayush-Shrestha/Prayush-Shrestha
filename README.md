@@ -10,30 +10,32 @@
 
 </div>
 
-<br/>
+---
 
-## About Me
+## 👋 About Me
 
 I'm **Prayush Shrestha**, a Computing student interested in **Web Development, Data Analysis, Data Engineering and AI/ML**.
 
-I enjoy building practical applications, creating responsive user interfaces, working with databases, developing full-stack systems, and exploring data through analysis and visualization.
+I enjoy building practical projects, creating responsive user interfaces, working with databases, and exploring data through dashboards and visualizations.
 
-* BSc (Hons) Computing
-* Interested in Web Development, Data Analysis, Data Engineering and AI/ML
-* Currently working with Next.js, React, TypeScript and JavaScript
-* Exploring Python, Pandas, NumPy, Power BI and Data Visualization
-* Working with MySQL, MongoDB and other database technologies
-* Interested in building practical full-stack and data-driven applications
+* 🎓 BSc (Hons) Computing
+* 💻 Interested in Web Development, Data Analysis, Data Engineering and AI/ML
+* ⚛️ Currently working with Next.js, React, TypeScript and JavaScript
+* 🐍 Exploring Python, Pandas, NumPy and Data Visualization
+* 📊 Learning Power BI and Business Intelligence
+* 🗄️ Working with MySQL and MongoDB
+* ☁️ Exploring Cloud Technologies
+* 🚀 Building full-stack applications and personal projects
 
 ---
 
-# Featured Projects
+# 🚀 Featured Projects
 
-## TaskFlow Management System
+## 📋 TaskFlow Management System
 
 A full-stack task management web application designed to help users organize projects, manage tasks, and track progress through a responsive dashboard.
 
-**Features:**
+### Features
 
 * User registration and login
 * Secure authentication
@@ -48,17 +50,18 @@ A full-stack task management web application designed to help users organize pro
 
 **Tech:** React · JavaScript · Node.js · Express.js · MySQL · JWT · bcrypt
 
-**Repository:** [TaskFlow-Management-System](https://github.com/Prayush-Shrestha/TaskFlow-Management-System)
+**Repository:**
+[TaskFlow-Management-System](https://github.com/Prayush-Shrestha/TaskFlow-Management-System)
 
 ---
 
-## PSPerfume
+## 🧴 PSPerfume
 
 A full-stack perfume e-commerce web application built with **Next.js, React, TypeScript, Node.js, Express.js and MongoDB**.
 
 The application provides a modern shopping experience where users can browse perfumes, search for products, view product details, manage their cart, and view their order history.
 
-**Features:**
+### Features
 
 * Product browsing
 * Product search
@@ -71,21 +74,22 @@ The application provides a modern shopping experience where users can browse per
 * Responsive user interface
 * Product and order management
 
-**Authentication:**
+### Authentication
 
-**Clerk** is used for the login and signup system. Clerk provides secure, ready-to-use authentication and makes user registration, login, and account management easier to implement.
+**Clerk** is used for the login and signup system. Clerk provides secure, ready-to-use authentication and simplifies user registration, login, and account management.
 
 **Tech:** Next.js · React · TypeScript · Node.js · Express.js · MongoDB · Mongoose · Clerk
 
-**Repository:** [PSPerfume](https://github.com/Prayush-Shrestha/PSPerfume)
+**Repository:**
+[PSPerfume](https://github.com/Prayush-Shrestha/PSPerfume)
 
 ---
 
-## Neighborly
+## 🏘️ Neighborly
 
 A modern community-focused web application designed to connect users with local services, resources and community activities.
 
-**Features:**
+### Features
 
 * Responsive user interface
 * Modern dashboard
@@ -96,15 +100,16 @@ A modern community-focused web application designed to connect users with local 
 
 **Tech:** React · JavaScript · HTML · CSS
 
-**Repository:** [Neighborly](https://github.com/yogeshpan1/Neighborly)
+**Repository:**
+[Neighborly](https://github.com/yogeshpan1/Neighborly)
 
 ---
 
-## WeCare Store
+## 🛒 WeCare Store
 
 An e-commerce store project designed to provide a modern online shopping experience with product browsing and responsive user interfaces.
 
-**Features:**
+### Features
 
 * Product browsing
 * Product listing
@@ -115,15 +120,16 @@ An e-commerce store project designed to provide a modern online shopping experie
 
 **Tech:** React · JavaScript · HTML · CSS
 
-**Repository:** [Wecare-Store](https://github.com/Prayush-Shrestha/Wecare-Store)
+**Repository:**
+[Wecare-Store](https://github.com/Prayush-Shrestha/Wecare-Store)
 
 ---
 
-## Expense Tracker
+## 💰 Expense Tracker
 
 A personal expense management application built with vanilla JavaScript to help users track expenses and manage their spending.
 
-**Features:**
+### Features
 
 * Add expenses
 * Track spending
@@ -134,15 +140,16 @@ A personal expense management application built with vanilla JavaScript to help 
 
 **Tech:** HTML · CSS · JavaScript
 
-**Repository:** [Expense-Tracker](https://github.com/Prayush-Shrestha/Expense-Tracker)
+**Repository:**
+[Expense-Tracker](https://github.com/Prayush-Shrestha/Expense-Tracker)
 
 ---
 
-## Modern Business Website
+## 🌐 Modern Business Website
 
 A modern and responsive multi-page business website designed to showcase company services, portfolio, pricing, blogs and contact information.
 
-**Features:**
+### Features
 
 * Responsive design
 * Business landing page
@@ -155,15 +162,16 @@ A modern and responsive multi-page business website designed to showcase company
 
 **Tech:** HTML · CSS · JavaScript
 
-**Repository:** [Modern-Business](https://github.com/Prayush-Shrestha/Modern-Business)
+**Repository:**
+[Modern-Business](https://github.com/Prayush-Shrestha/Modern-Business)
 
 ---
 
-## Calculator
+## 🧮 Calculator
 
 A simple and responsive calculator application built with HTML, CSS and JavaScript.
 
-**Features:**
+### Features
 
 * Addition
 * Subtraction
@@ -175,15 +183,16 @@ A simple and responsive calculator application built with HTML, CSS and JavaScri
 
 **Tech:** HTML · CSS · JavaScript
 
-**Repository:** [Calculator](https://github.com/Prayush-Shrestha/calculator)
+**Repository:**
+[Calculator](https://github.com/Prayush-Shrestha/calculator)
 
 ---
 
-## Currency Converter
+## 💱 Currency Converter
 
 A simple and responsive web application that allows users to convert amounts between different currencies.
 
-**Features:**
+### Features
 
 * Select source currency
 * Select target currency
@@ -195,15 +204,16 @@ A simple and responsive web application that allows users to convert amounts bet
 
 **Tech:** HTML · CSS · JavaScript
 
-**Repository:** [Currency](https://github.com/Prayush-Shrestha/Currency)
+**Repository:**
+[Currency](https://github.com/Prayush-Shrestha/Currency)
 
 ---
 
-## Background Color Change
+## 🎨 Background Color Change
 
 A simple interactive web project that allows users to change the background color dynamically using JavaScript.
 
-**Features:**
+### Features
 
 * Dynamic background color change
 * Interactive button
@@ -212,15 +222,20 @@ A simple interactive web project that allows users to change the background colo
 
 **Tech:** HTML · CSS · JavaScript
 
-**Repository:** [Background-Color-Change](https://github.com/Prayush-Shrestha/Background-Color-Change)
+**Repository:**
+[Background-Color-Change](https://github.com/Prayush-Shrestha/Background-Color-Change)
 
 ---
 
-# Tech Stack
+# 🛠️ Tech Stack
 
 <div align="center">
 
 ### Programming Languages
+
+<img src="https://skillicons.dev/icons?i=js,ts,python,java,cpp" />
+
+<br/>
 
 JavaScript · TypeScript · Python · Java · C++
 
@@ -228,17 +243,29 @@ JavaScript · TypeScript · Python · Java · C++
 
 ### Frontend
 
+<img src="https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind" />
+
+<br/>
+
 HTML5 · CSS3 · React · Next.js · Tailwind CSS
 
 <br/><br/>
 
-### Backend and Database
+### Backend & Database
 
-Node.js · Express.js · MySQL · MongoDB · Mongoose
+<img src="https://skillicons.dev/icons?i=nodejs,express,mysql,mongodb" />
+
+<br/>
+
+Node.js · Express.js · MySQL · MongoDB
 
 <br/><br/>
 
-### Tools and Platforms
+### Tools & Platforms
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,aws" />
+
+<br/>
 
 Git · GitHub · Visual Studio Code · AWS
 
@@ -246,15 +273,19 @@ Git · GitHub · Visual Studio Code · AWS
 
 ---
 
-# Data and Analytics
+# 📊 Data & Analytics
 
 <div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,mysql,powerbi" />
+
+<br/><br/>
 
 Python · MySQL · Power BI
 
 </div>
 
-I am particularly interested in:
+### Areas of Interest
 
 * Data Analysis
 * Pandas
@@ -263,20 +294,19 @@ I am particularly interested in:
 * Seaborn
 * Power BI
 * Data Visualization
-* SQL and MySQL
+* SQL & MySQL
 * Business Intelligence
 * Data Cleaning
 * Exploratory Data Analysis
-* Data Engineering
 
 ---
 
-# Currently Learning
+# 📚 Currently Learning
 
 * Next.js
 * React
 * Full-Stack Web Development
-* Advanced JavaScript and TypeScript
+* Advanced JavaScript & TypeScript
 * Data Analysis with Python
 * Pandas
 * NumPy
@@ -285,19 +315,23 @@ I am particularly interested in:
 * Database Design
 * Cloud Technologies
 * Business Intelligence
-* AI and Machine Learning
+* AI/ML
 
 ---
 
-# GitHub Statistics
+# 📈 GitHub Statistics
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Prayush-Shrestha&show_icons=true&theme=nord&border_color=7dd3fc&title_color=7dd3fc&icon_color=7dd3fc&text_color=c9d1d9&bg_color=0d1117" />
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=Prayush-Shrestha&show_icons=true&theme=nord&border_color=7dd3fc&title_color=7dd3fc&icon_color=7dd3fc&text_color=c9d1d9&bg_color=0d1117&hide_border=false" />
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prayush-Shrestha&layout=compact&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&bg_color=0d1117" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prayush-Shrestha&layout=compact&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&bg_color=0d1117&hide_border=false" />
 
-<br/><br/>
+</div>
+
+<br/>
+
+<div align="center">
 
 <img src="https://streak-stats.demolab.com?user=Prayush-Shrestha&theme=nord&border=7dd3fc&ring=7dd3fc&fire=7dd3fc&currStreakLabel=7dd3fc" />
 
@@ -305,21 +339,41 @@ I am particularly interested in:
 
 ---
 
-# Connect With Me
+# 📊 GitHub Activity
 
 <div align="center">
 
-[GitHub](https://github.com/Prayush-Shrestha)
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Prayush-Shrestha&bg_color=0d1117&color=7dd3fc&line=7dd3fc&point=ffffff&area=true&hide_border=true" width="95%"/>
 
-[LinkedIn](https://www.linkedin.com/in/prayushshrestha07/)
+</div>
 
-Email: [prayush1823@gmail.com](mailto:prayush1823@gmail.com)
+---
+
+# 🤝 Connect With Me
+
+<div align="center">
+
+<a href="https://github.com/Prayush-Shrestha">
+<img src="https://img.shields.io/badge/GitHub-Prayush--Shrestha-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://www.linkedin.com/in/prayushshrestha07/">
+<img src="https://img.shields.io/badge/LinkedIn-Prayush%20Shrestha-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="mailto:prayush1823@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-prayush1823%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
 
 </div>
 
 <br/>
 
 <div align="center">
+
+### 💻 Building. Learning. Improving.
+
+<br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7dd3fc,100:0f172a&height=120&section=footer" width="100%"/>
 
