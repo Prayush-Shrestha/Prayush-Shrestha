@@ -198,6 +198,23 @@ A simple and responsive web application that allows users to convert amounts bet
 
 ---
 
+## Background Color Change
+
+A simple interactive web project that allows users to change the background color dynamically using JavaScript.
+
+**Features:**
+
+* Dynamic background color change
+* Interactive button
+* Simple user interface
+* Responsive design
+
+**Tech:** HTML · CSS · JavaScript
+
+**Repository:** [**Background-Color-Change**](https://github.com/Prayush-Shrestha/Background-Color-Change)
+
+---
+
 # Tech Stack
 
 <div align="center">
