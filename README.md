@@ -12,26 +12,26 @@
 
 ---
 
-## 👋 About Me
+##  About Me
 
 I'm **Prayush Shrestha**, a Computing student interested in **Web Development, Data Analysis, Data Engineering and AI/ML**.
 
 I enjoy building practical projects, creating responsive user interfaces, working with databases, and exploring data through dashboards and visualizations.
 
-* 🎓 BSc (Hons) Computing
-* 💻 Interested in Web Development, Data Analysis, Data Engineering and AI/ML
-* ⚛️ Currently working with Next.js, React, TypeScript and JavaScript
-* 🐍 Exploring Python, Pandas, NumPy and Data Visualization
-* 📊 Learning Power BI and Business Intelligence
-* 🗄️ Working with MySQL and MongoDB
-* ☁️ Exploring Cloud Technologies
-* 🚀 Building full-stack applications and personal projects
+*  BSc (Hons) Computing
+*  Interested in Web Development, Data Analysis, Data Engineering and AI/ML
+*  Currently working with Next.js, React, TypeScript and JavaScript
+*  Exploring Python, Pandas, NumPy and Data Visualization
+*  Learning Power BI and Business Intelligence
+*  Working with MySQL and MongoDB
+*  Exploring Cloud Technologies
+*  Building full-stack applications and personal projects
 
 ---
 
-# 🚀 Featured Projects
+#  Featured Projects
 
-## 📋 TaskFlow Management System
+##  TaskFlow Management System
 
 A full-stack task management web application designed to help users organize projects, manage tasks, and track progress through a responsive dashboard.
 
@@ -55,7 +55,7 @@ A full-stack task management web application designed to help users organize pro
 
 ---
 
-## 🧴 PSPerfume
+##  PSPerfume
 
 A full-stack perfume e-commerce web application built with **Next.js, React, TypeScript, Node.js, Express.js and MongoDB**.
 
@@ -85,7 +85,7 @@ The application provides a modern shopping experience where users can browse per
 
 ---
 
-## 🏘️ Neighborly
+##  Neighborly
 
 A modern community-focused web application designed to connect users with local services, resources and community activities.
 
@@ -105,7 +105,7 @@ A modern community-focused web application designed to connect users with local 
 
 ---
 
-## 🛒 WeCare Store
+##  WeCare Store
 
 An e-commerce store project designed to provide a modern online shopping experience with product browsing and responsive user interfaces.
 
@@ -125,7 +125,7 @@ An e-commerce store project designed to provide a modern online shopping experie
 
 ---
 
-## 💰 Expense Tracker
+##  Expense Tracker
 
 A personal expense management application built with vanilla JavaScript to help users track expenses and manage their spending.
 
@@ -145,7 +145,7 @@ A personal expense management application built with vanilla JavaScript to help 
 
 ---
 
-## 🌐 Modern Business Website
+##  Modern Business Website
 
 A modern and responsive multi-page business website designed to showcase company services, portfolio, pricing, blogs and contact information.
 
@@ -167,7 +167,7 @@ A modern and responsive multi-page business website designed to showcase company
 
 ---
 
-## 🧮 Calculator
+##  Calculator
 
 A simple and responsive calculator application built with HTML, CSS and JavaScript.
 
@@ -188,7 +188,7 @@ A simple and responsive calculator application built with HTML, CSS and JavaScri
 
 ---
 
-## 💱 Currency Converter
+##  Currency Converter
 
 A simple and responsive web application that allows users to convert amounts between different currencies.
 
@@ -209,7 +209,7 @@ A simple and responsive web application that allows users to convert amounts bet
 
 ---
 
-## 🎨 Background Color Change
+##  Background Color Change
 
 A simple interactive web project that allows users to change the background color dynamically using JavaScript.
 
@@ -227,7 +227,7 @@ A simple interactive web project that allows users to change the background colo
 
 ---
 
-# 🛠️ Tech Stack
+#  Tech Stack
 
 <div align="center">
 
@@ -273,7 +273,7 @@ Git · GitHub · Visual Studio Code · AWS
 
 ---
 
-# 📊 Data & Analytics
+#  Data & Analytics
 
 <div align="center">
 
@@ -301,7 +301,7 @@ Python · MySQL · Power BI
 
 ---
 
-# 📚 Currently Learning
+#  Currently Learning
 
 * Next.js
 * React
@@ -319,7 +319,7 @@ Python · MySQL · Power BI
 
 ---
 
-# 📈 GitHub Statistics
+#  GitHub Statistics
 
 <div align="center">
 
@@ -339,7 +339,7 @@ Python · MySQL · Power BI
 
 ---
 
-# 📊 GitHub Activity
+#  GitHub Activity
 
 <div align="center">
 
@@ -349,7 +349,7 @@ Python · MySQL · Power BI
 
 ---
 
-# 🤝 Connect With Me
+#  Connect With Me
 
 <div align="center">
 
