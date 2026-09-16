@@ -3,39 +3,37 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:7dd3fc&height=200&section=header&text=Prayush%20Shrestha&fontSize=48&fontColor=ffffff&animation=twinkling&fontAlignY=45" width="100%"/>
 
 <a href="https://github.com/Prayush-Shrestha">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&duration=3000&pause=800&color=7DD3FC&center=true&vCenter=true&width=700&lines=Building+Modern+Web+Applications;Exploring+Data+Analysis+%26+Visualization;Developing+with+Next.js+%26+React;Learning+Full-Stack+Development;Exploring+AI%2FML+%26+Data+Engineering" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&duration=3000&pause=800&color=7DD3FC&center=true&vCenter=true&width=650&lines=Building+modern+web+applications;Exploring+Data+Analysis+%26+Visualization;Developing+with+Next.js+%26+React;Learning+Full-Stack+Development" alt="Typing SVG" />
 </a>
 
 <br/><br/>
 
 </div>
 
----
+<br/>
 
-# 👋 About Me
+## About Me
 
-Hi, I'm **Prayush Shrestha**, a Computing student interested in **Web Development, Data Analysis, Data Engineering and AI/ML**.
+I'm **Prayush Shrestha**, a Computing student interested in **Web Development, Data Analysis, Data Engineering and AI/ML**.
 
-I enjoy building practical applications, creating responsive user interfaces, working with databases, and exploring data through dashboards and visualizations.
+I enjoy building practical applications, creating responsive user interfaces, working with databases, developing full-stack systems, and exploring data through analysis and visualization.
 
-* 🎓 BSc (Hons) Computing
-* 💻 Interested in Web Development, Full-Stack Development, Data Analysis and AI/ML
-* ⚛️ Currently working with React, Next.js, JavaScript and TypeScript
-* 🐍 Exploring Python, Pandas, NumPy and Data Visualization
-* 📊 Learning Power BI, SQL and Business Intelligence
-* 🗄️ Working with MySQL and MongoDB
-* ☁️ Exploring Cloud Technologies
-* 🚀 Building projects to improve my development and problem-solving skills
+* BSc (Hons) Computing
+* Interested in Web Development, Data Analysis, Data Engineering and AI/ML
+* Currently working with Next.js, React, TypeScript and JavaScript
+* Exploring Python, Pandas, NumPy, Power BI and Data Visualization
+* Working with MySQL, MongoDB and other database technologies
+* Interested in building practical full-stack and data-driven applications
 
 ---
 
-# 🚀 Featured Projects
+# Featured Projects
 
-## 📋 TaskFlow Management System
+## TaskFlow Management System
 
 A full-stack task management web application designed to help users organize projects, manage tasks, and track progress through a responsive dashboard.
 
-### Features
+**Features:**
 
 * User registration and login
 * Secure authentication
@@ -54,13 +52,13 @@ A full-stack task management web application designed to help users organize pro
 
 ---
 
-## 🛍️ PSPerfume
+## PSPerfume
 
 A full-stack perfume e-commerce web application built with **Next.js, React, TypeScript, Node.js, Express.js and MongoDB**.
 
 The application provides a modern shopping experience where users can browse perfumes, search for products, view product details, manage their cart, and view their order history.
 
-### Features
+**Features:**
 
 * Product browsing
 * Product search
@@ -71,12 +69,11 @@ The application provides a modern shopping experience where users can browse per
 * User profile
 * Order history
 * Responsive user interface
-* Product management
-* Order management
+* Product and order management
 
-### Authentication
+**Authentication:**
 
-**Clerk** is used for the login and signup system. It provides ready-to-use authentication, user registration, login and account management functionality.
+**Clerk** is used for the login and signup system. Clerk provides secure, ready-to-use authentication and makes user registration, login, and account management easier to implement.
 
 **Tech:** Next.js · React · TypeScript · Node.js · Express.js · MongoDB · Mongoose · Clerk
 
@@ -84,11 +81,11 @@ The application provides a modern shopping experience where users can browse per
 
 ---
 
-## 🤝 Neighborly
+## Neighborly
 
 A modern community-focused web application designed to connect users with local services, resources and community activities.
 
-### Features
+**Features:**
 
 * Responsive user interface
 * Modern dashboard
@@ -103,11 +100,11 @@ A modern community-focused web application designed to connect users with local 
 
 ---
 
-## 🛒 WeCare Store
+## WeCare Store
 
 An e-commerce store project designed to provide a modern online shopping experience with product browsing and responsive user interfaces.
 
-### Features
+**Features:**
 
 * Product browsing
 * Product listing
@@ -122,11 +119,11 @@ An e-commerce store project designed to provide a modern online shopping experie
 
 ---
 
-## 💰 Expense Tracker
+## Expense Tracker
 
 A personal expense management application built with vanilla JavaScript to help users track expenses and manage their spending.
 
-### Features
+**Features:**
 
 * Add expenses
 * Track spending
@@ -141,11 +138,11 @@ A personal expense management application built with vanilla JavaScript to help 
 
 ---
 
-## 💼 Modern Business Website
+## Modern Business Website
 
 A modern and responsive multi-page business website designed to showcase company services, portfolio, pricing, blogs and contact information.
 
-### Features
+**Features:**
 
 * Responsive design
 * Business landing page
@@ -162,11 +159,11 @@ A modern and responsive multi-page business website designed to showcase company
 
 ---
 
-## 🧮 Calculator
+## Calculator
 
 A simple and responsive calculator application built with HTML, CSS and JavaScript.
 
-### Features
+**Features:**
 
 * Addition
 * Subtraction
@@ -182,16 +179,16 @@ A simple and responsive calculator application built with HTML, CSS and JavaScri
 
 ---
 
-## 💱 Currency Converter
+## Currency Converter
 
 A simple and responsive web application that allows users to convert amounts between different currencies.
 
-### Features
+**Features:**
 
 * Select source currency
 * Select target currency
-* Enter amount
-* Currency conversion
+* Enter amount for conversion
+* Convert between different currencies
 * Dynamic currency selection
 * Responsive user interface
 * Simple and user-friendly design
@@ -202,11 +199,11 @@ A simple and responsive web application that allows users to convert amounts bet
 
 ---
 
-## 🎨 Background Color Change
+## Background Color Change
 
 A simple interactive web project that allows users to change the background color dynamically using JavaScript.
 
-### Features
+**Features:**
 
 * Dynamic background color change
 * Interactive button
@@ -219,65 +216,45 @@ A simple interactive web project that allows users to change the background colo
 
 ---
 
-# 🛠️ Tech Stack
+# Tech Stack
 
 <div align="center">
 
 ### Programming Languages
 
-<img src="https://skillicons.dev/icons?i=js,ts,python,java,cpp" />
-
-<br/><br/>
-
 JavaScript · TypeScript · Python · Java · C++
 
 <br/><br/>
 
-### Frontend Development
-
-<img src="https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind" />
-
-<br/><br/>
+### Frontend
 
 HTML5 · CSS3 · React · Next.js · Tailwind CSS
 
 <br/><br/>
 
-### Backend & Databases
+### Backend and Database
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,mysql,mongodb" />
-
-<br/><br/>
-
-Node.js · Express.js · MySQL · MongoDB
+Node.js · Express.js · MySQL · MongoDB · Mongoose
 
 <br/><br/>
 
-### Tools & Platforms
+### Tools and Platforms
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,aws" />
-
-<br/><br/>
-
-Git · GitHub · VS Code · AWS
+Git · GitHub · Visual Studio Code · AWS
 
 </div>
 
 ---
 
-# 📊 Data & Analytics
+# Data and Analytics
 
 <div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,mysql,powerbi" />
-
-<br/><br/>
 
 Python · MySQL · Power BI
 
 </div>
 
-### Areas I'm Exploring
+I am particularly interested in:
 
 * Data Analysis
 * Pandas
@@ -286,7 +263,7 @@ Python · MySQL · Power BI
 * Seaborn
 * Power BI
 * Data Visualization
-* SQL & MySQL
+* SQL and MySQL
 * Business Intelligence
 * Data Cleaning
 * Exploratory Data Analysis
@@ -294,15 +271,13 @@ Python · MySQL · Power BI
 
 ---
 
-# 📚 Currently Learning
+# Currently Learning
 
 * Next.js
 * React
 * Full-Stack Web Development
-* Advanced JavaScript
-* TypeScript
-* Python
-* Data Analysis
+* Advanced JavaScript and TypeScript
+* Data Analysis with Python
 * Pandas
 * NumPy
 * Power BI
@@ -310,23 +285,19 @@ Python · MySQL · Power BI
 * Database Design
 * Cloud Technologies
 * Business Intelligence
-* AI/ML
+* AI and Machine Learning
 
 ---
 
-# 📈 GitHub Statistics
+# GitHub Statistics
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Prayush-Shrestha&show_icons=true&theme=nord&border_color=7dd3fc&title_color=7dd3fc&icon_color=7dd3fc&text_color=c9d1d9&bg_color=0d1117&hide_border=false" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Prayush-Shrestha&show_icons=true&theme=nord&border_color=7dd3fc&title_color=7dd3fc&icon_color=7dd3fc&text_color=c9d1d9&bg_color=0d1117" />
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prayush-Shrestha&layout=compact&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&bg_color=0d1117&hide_border=false" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prayush-Shrestha&layout=compact&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&bg_color=0d1117" />
 
-</div>
-
-<br/>
-
-<div align="center">
+<br/><br/>
 
 <img src="https://streak-stats.demolab.com?user=Prayush-Shrestha&theme=nord&border=7dd3fc&ring=7dd3fc&fire=7dd3fc&currStreakLabel=7dd3fc" />
 
@@ -334,45 +305,15 @@ Python · MySQL · Power BI
 
 ---
 
-# 📊 GitHub Activity
+# Connect With Me
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Prayush-Shrestha&bg_color=0d1117&color=7dd3fc&line=7dd3fc&point=ffffff&area=true&hide_border=false" width="95%"/>
+[GitHub](https://github.com/Prayush-Shrestha)
 
-</div>
+[LinkedIn](https://www.linkedin.com/in/prayushshrestha07/)
 
----
-
-# 🎯 Goals
-
-* Build production-ready full-stack applications
-* Improve my software engineering skills
-* Develop strong data analysis and visualization skills
-* Learn AI and Machine Learning
-* Explore Data Engineering
-* Learn Cloud technologies
-* Build real-world projects
-* Contribute to open-source projects
-* Continuously improve my GitHub portfolio
-
----
-
-# 📫 Connect With Me
-
-<div align="center">
-
-<a href="https://github.com/Prayush-Shrestha">
-<img src="https://img.shields.io/badge/GitHub-Prayush--Shrestha-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-<a href="https://www.linkedin.com/in/prayushshrestha07/">
-<img src="https://img.shields.io/badge/LinkedIn-Prayush%20Shrestha-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="mailto:prayush1823@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-prayush1823%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
+Email: [prayush1823@gmail.com](mailto:prayush1823@gmail.com)
 
 </div>
 
