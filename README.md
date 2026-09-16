@@ -339,16 +339,6 @@ Python · MySQL · Power BI
 
 ---
 
-#  GitHub Activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Prayush-Shrestha&bg_color=0d1117&color=7dd3fc&line=7dd3fc&point=ffffff&area=true&hide_border=true" width="95%"/>
-
-</div>
-
----
-
 #  Connect With Me
 
 <div align="center">
