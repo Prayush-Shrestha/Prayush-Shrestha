@@ -1,0 +1,253 @@
+name: Update GitHub Projects
+
+on:
+  # Automatically run every 6 hours
+  schedule:
+    - cron: "0 */6 * * *"
+
+  # Allow manual execution from GitHub Actions
+  workflow_dispatch:
+
+  # Run when this workflow file or README is updated
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  update-projects:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      # ----------------------------------------
+      # Checkout profile repository
+      # ----------------------------------------
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+
+      # ----------------------------------------
+      # Generate Projects section
+      # ----------------------------------------
+
+      - name: Update Projects section
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+        run: |
+
+          python <<'PY'
+
+          import json
+          import re
+          import subprocess
+
+
+          # ----------------------------------------
+          # GitHub username
+          # ----------------------------------------
+
+          username = "Prayush-Shrestha"
+
+
+          # ----------------------------------------
+          # Get public repositories
+          # ----------------------------------------
+
+          command = [
+              "gh",
+              "repo",
+              "list",
+              username,
+              "--limit",
+              "100",
+              "--json",
+              "name,description,url,isPrivate,isFork,updatedAt"
+          ]
+
+
+          result = subprocess.run(
+              command,
+              capture_output=True,
+              text=True,
+              check=True
+          )
+
+
+          repositories = json.loads(result.stdout)
+
+
+          # ----------------------------------------
+          # Remove private repositories
+          # Remove forked repositories
+          # ----------------------------------------
+
+          repositories = [
+              repo
+              for repo in repositories
+              if not repo["isPrivate"]
+              and not repo["isFork"]
+          ]
+
+
+          # ----------------------------------------
+          # Sort repositories
+          # Newest updated repositories first
+          # ----------------------------------------
+
+          repositories.sort(
+              key=lambda repo: repo["updatedAt"],
+              reverse=True
+          )
+
+
+          # ----------------------------------------
+          # Create Projects section
+          # ----------------------------------------
+
+          projects = []
+
+
+          for repo in repositories:
+
+              name = repo["name"]
+
+              description = repo["description"]
+
+
+              # If repository has no description
+              if not description:
+
+                  description = (
+                      "A project developed by Prayush Shrestha."
+                  )
+
+
+              project = f"""
+          ## {name}
+
+          {description}
+
+          **Repository:**  
+          [{name}]({repo["url"]})
+
+          ---
+          """
+
+
+              projects.append(project)
+
+
+          projects_content = "\n".join(projects)
+
+
+          # ----------------------------------------
+          # Read README
+          # ----------------------------------------
+
+          readme_file = "README.md"
+
+
+          with open(
+              readme_file,
+              "r",
+              encoding="utf-8"
+          ) as file:
+
+              readme = file.read()
+
+
+          # ----------------------------------------
+          # README markers
+          # ----------------------------------------
+
+          start_marker = "<!-- PROJECTS:START -->"
+
+          end_marker = "<!-- PROJECTS:END -->"
+
+
+          # ----------------------------------------
+          # Generate new section
+          # ----------------------------------------
+
+          new_projects_section = (
+              start_marker
+              + "\n\n"
+              + projects_content
+              + "\n"
+              + end_marker
+          )
+
+
+          # ----------------------------------------
+          # Replace old Projects section
+          # ----------------------------------------
+
+          pattern = (
+              re.escape(start_marker)
+              + r".*?"
+              + re.escape(end_marker)
+          )
+
+
+          updated_readme = re.sub(
+              pattern,
+              new_projects_section,
+              readme,
+              flags=re.DOTALL
+          )
+
+
+          # ----------------------------------------
+          # Save README
+          # ----------------------------------------
+
+          with open(
+              readme_file,
+              "w",
+              encoding="utf-8"
+          ) as file:
+
+              file.write(updated_readme)
+
+
+          print(
+              f"Successfully processed {len(repositories)} repositories."
+          )
+
+          PY
+
+
+      # ----------------------------------------
+      # Commit changes
+      # ----------------------------------------
+
+      - name: Commit updated README
+        run: |
+
+          git config user.name "github-actions[bot]"
+
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+
+          git add README.md
+
+
+          # Check whether README actually changed
+
+          if git diff --cached --quiet; then
+
+              echo "No changes detected."
+
+          else
+
+              git commit -m "chore: update GitHub projects"
+
+              git push
+
+          fi
