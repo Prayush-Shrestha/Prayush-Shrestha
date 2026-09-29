@@ -33,6 +33,166 @@ I enjoy building practical projects, creating responsive user interfaces, workin
 
 <!-- PROJECTS:START -->
 
+
+## PrayushShrestha
+
+A project developed by Prayush Shrestha.
+
+**Repository:**  
+[PrayushShrestha](https://github.com/Prayush-Shrestha/PrayushShrestha)
+
+---
+
+
+## Prayush-Shrestha
+
+A project developed by Prayush Shrestha.
+
+**Repository:**  
+[Prayush-Shrestha](https://github.com/Prayush-Shrestha/Prayush-Shrestha)
+
+---
+
+
+## Wecare-Store
+
+A Python-based inventory and skincare management system featuring automated purchase logic and text file data persistence.
+
+**Repository:**  
+[Wecare-Store](https://github.com/Prayush-Shrestha/Wecare-Store)
+
+---
+
+
+## hamrokhata-dashboard
+
+Hamro Khata Dashboard is a task and employee management system for tracking tasks, priorities, deadlines, and employee assignments.
+
+**Repository:**  
+[hamrokhata-dashboard](https://github.com/Prayush-Shrestha/hamrokhata-dashboard)
+
+---
+
+
+## SewaPortal
+
+SewaPortal is a community services portal that provides easy access to services such as National ID, Driving License, PAN, Voter Card, and Bluebook. It also includes document storage, application tracking, payment and fine management, community polls, and issue reporting in one centralized platform.
+
+**Repository:**  
+[SewaPortal](https://github.com/Prayush-Shrestha/SewaPortal)
+
+---
+
+
+## 2Dcarracing
+
+A project developed by Prayush Shrestha.
+
+**Repository:**  
+[2Dcarracing](https://github.com/Prayush-Shrestha/2Dcarracing)
+
+---
+
+
+## Currency
+
+Currency Converter — A simple web-based currency conversion application built with HTML, CSS, and JavaScript, featuring currency selection and conversion functionality.
+
+**Repository:**  
+[Currency](https://github.com/Prayush-Shrestha/Currency)
+
+---
+
+
+## Smart-Coursework
+
+Smart Coursework — A data preparation project focused on cleaning, processing, and preparing coursework-related data using Python and Jupyter Notebook.
+
+**Repository:**  
+[Smart-Coursework](https://github.com/Prayush-Shrestha/Smart-Coursework)
+
+---
+
+
+## tic-tac-toe
+
+Tic-Tac-Toe — A simple browser-based two-player game built with HTML, CSS, and JavaScript, featuring an interactive 3×3 board, turn management, win/draw detection, and game reset functionality.
+
+**Repository:**  
+[tic-tac-toe](https://github.com/Prayush-Shrestha/tic-tac-toe)
+
+---
+
+
+## AI-Prediction
+
+NEPSE Direction Tracker — A live-updating dashboard that uses a Python FastAPI backend and Random Forest machine learning models to predict the next-session price direction of NEPSE-listed stocks.
+
+**Repository:**  
+[AI-Prediction](https://github.com/Prayush-Shrestha/AI-Prediction)
+
+---
+
+
+## TaskFlow-Management-System
+
+A full-stack task management system built with React, Node.js, and MySQL.
+
+**Repository:**  
+[TaskFlow-Management-System](https://github.com/Prayush-Shrestha/TaskFlow-Management-System)
+
+---
+
+
+## Expense-Tracker
+
+Frontend application for tracking personal expenses and calculating balances in real-time using vanilla JavaScript.
+
+**Repository:**  
+[Expense-Tracker](https://github.com/Prayush-Shrestha/Expense-Tracker)
+
+---
+
+
+## Background-Color-Change
+
+A simple and interactive web application built with HTML, CSS, and JavaScript to dynamically change webpage background colors.
+
+**Repository:**  
+[Background-Color-Change](https://github.com/Prayush-Shrestha/Background-Color-Change)
+
+---
+
+
+## PSPerfume
+
+A full-stack perfume e-commerce application built with Next.js, Node.js, Express, MongoDB, and Clerk authentication.
+
+**Repository:**  
+[PSPerfume](https://github.com/Prayush-Shrestha/PSPerfume)
+
+---
+
+
+## calculator
+
+Simple and responsive calculator web application built with Python.
+
+**Repository:**  
+[calculator](https://github.com/Prayush-Shrestha/calculator)
+
+---
+
+
+## Modern-Business
+
+Modern responsive business website built with HTML, CSS, and JavaScript.
+
+**Repository:**  
+[Modern-Business](https://github.com/Prayush-Shrestha/Modern-Business)
+
+---
+
 <!-- PROJECTS:END -->
 
 ---
