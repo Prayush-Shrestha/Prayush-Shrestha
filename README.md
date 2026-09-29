@@ -29,7 +29,7 @@ I enjoy building practical projects, creating responsive user interfaces, workin
 
 ---
 
-# Projects
+# Featured Projects
 
 <!-- PROJECTS:START -->
 
