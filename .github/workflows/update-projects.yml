@@ -8,6 +8,11 @@ on:
   # Allow manual updates from GitHub Actions
   workflow_dispatch:
 
+  # Also update whenever README/workflow changes are pushed
+  push:
+    branches:
+      - main
+
 permissions:
   contents: write
 
@@ -17,13 +22,13 @@ jobs:
 
     steps:
       # -----------------------------------------
-      # Get the profile repository
+      # Checkout profile repository
       # -----------------------------------------
       - name: Checkout repository
         uses: actions/checkout@v4
 
       # -----------------------------------------
-      # Get repositories and update README
+      # Update Projects section
       # -----------------------------------------
       - name: Update Projects section
         env:
@@ -70,6 +75,8 @@ jobs:
               USERNAME,
               "--limit",
               "100",
+              "--visibility",
+              "public",
               "--json",
               "name,description,url,isPrivate,isFork,updatedAt"
           ]
@@ -114,20 +121,14 @@ jobs:
 
           projects = []
 
-
           for repo in repositories:
 
               name = repo["name"]
-
               description = repo["description"]
 
-
-              # Use a default description if none exists
+              # Default description
               if not description:
-                  description = (
-                      "A project developed by Prayush Shrestha."
-                  )
-
+                  description = "A project developed by Prayush Shrestha."
 
               project = f"""## {name}
 
@@ -162,14 +163,13 @@ jobs:
 
 
           # ==================================================
-          # Check markers exist
+          # Check markers
           # ==================================================
 
           if START_MARKER not in readme:
               raise Exception(
                   "PROJECTS:START marker not found in README.md"
               )
-
 
           if END_MARKER not in readme:
               raise Exception(
@@ -190,7 +190,7 @@ jobs:
 
 
           # ==================================================
-          # Replace old Projects section
+          # Replace existing Projects section
           # ==================================================
 
           pattern = (
@@ -221,9 +221,16 @@ jobs:
               file.write(updated_readme)
 
 
+          # ==================================================
+          # Output
+          # ==================================================
+
           print(
               f"Found {len(repositories)} public repositories."
           )
+
+          for repo in repositories:
+              print(f"- {repo['name']}")
 
           print(
               "README Projects section updated successfully."
