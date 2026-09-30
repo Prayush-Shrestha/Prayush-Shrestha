@@ -1,3 +1,4 @@
+```yaml
 name: Update GitHub Projects
 
 on:
@@ -8,7 +9,7 @@ on:
   # Allow manual updates from GitHub Actions
   workflow_dispatch:
 
-  # Also update whenever README/workflow changes are pushed
+  # Update when changes are pushed to main
   push:
     branches:
       - main
@@ -21,15 +22,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # -----------------------------------------
+      # =========================================
       # Checkout profile repository
-      # -----------------------------------------
+      # =========================================
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # -----------------------------------------
+      # =========================================
       # Update Projects section
-      # -----------------------------------------
+      # =========================================
       - name: Update Projects section
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -42,31 +43,31 @@ jobs:
           import subprocess
 
 
-          # ==================================================
+          # =========================================
           # GitHub username
-          # ==================================================
+          # =========================================
 
           USERNAME = "Prayush-Shrestha"
 
 
-          # ==================================================
+          # =========================================
           # README file
-          # ==================================================
+          # =========================================
 
           README_FILE = "README.md"
 
 
-          # ==================================================
+          # =========================================
           # README markers
-          # ==================================================
+          # =========================================
 
           START_MARKER = "<!-- PROJECTS:START -->"
           END_MARKER = "<!-- PROJECTS:END -->"
 
 
-          # ==================================================
+          # =========================================
           # Get GitHub repositories
-          # ==================================================
+          # =========================================
 
           command = [
               "gh",
@@ -93,9 +94,9 @@ jobs:
           repositories = json.loads(result.stdout)
 
 
-          # ==================================================
+          # =========================================
           # Keep only public non-fork repositories
-          # ==================================================
+          # =========================================
 
           repositories = [
               repo
@@ -105,9 +106,9 @@ jobs:
           ]
 
 
-          # ==================================================
+          # =========================================
           # Sort by most recently updated
-          # ==================================================
+          # =========================================
 
           repositories.sort(
               key=lambda repo: repo["updatedAt"],
@@ -115,20 +116,25 @@ jobs:
           )
 
 
-          # ==================================================
+          # =========================================
           # Generate project list
-          # ==================================================
+          # =========================================
 
           projects = []
+
 
           for repo in repositories:
 
               name = repo["name"]
               description = repo["description"]
 
-              # Default description
+
+              # Use default description if none exists
               if not description:
-                  description = "A project developed by Prayush Shrestha."
+                  description = (
+                      "A project developed by Prayush Shrestha."
+                  )
+
 
               project = f"""## {name}
 
@@ -139,19 +145,20 @@ jobs:
 
           """
 
+
               projects.append(project)
 
 
-          # ==================================================
+          # =========================================
           # Combine projects
-          # ==================================================
+          # =========================================
 
           projects_content = "\n".join(projects)
 
 
-          # ==================================================
+          # =========================================
           # Read README
-          # ==================================================
+          # =========================================
 
           with open(
               README_FILE,
@@ -162,14 +169,15 @@ jobs:
               readme = file.read()
 
 
-          # ==================================================
+          # =========================================
           # Check markers
-          # ==================================================
+          # =========================================
 
           if START_MARKER not in readme:
               raise Exception(
                   "PROJECTS:START marker not found in README.md"
               )
+
 
           if END_MARKER not in readme:
               raise Exception(
@@ -177,9 +185,9 @@ jobs:
               )
 
 
-          # ==================================================
+          # =========================================
           # Create new Projects section
-          # ==================================================
+          # =========================================
 
           new_section = (
               START_MARKER
@@ -189,9 +197,9 @@ jobs:
           )
 
 
-          # ==================================================
-          # Replace existing Projects section
-          # ==================================================
+          # =========================================
+          # Replace old Projects section
+          # =========================================
 
           pattern = (
               re.escape(START_MARKER)
@@ -208,9 +216,9 @@ jobs:
           )
 
 
-          # ==================================================
+          # =========================================
           # Save README
-          # ==================================================
+          # =========================================
 
           with open(
               README_FILE,
@@ -221,16 +229,18 @@ jobs:
               file.write(updated_readme)
 
 
-          # ==================================================
-          # Output
-          # ==================================================
+          # =========================================
+          # Display results
+          # =========================================
 
           print(
               f"Found {len(repositories)} public repositories."
           )
 
+
           for repo in repositories:
               print(f"- {repo['name']}")
+
 
           print(
               "README Projects section updated successfully."
@@ -239,9 +249,9 @@ jobs:
           PY
 
 
-      # -----------------------------------------
+      # =========================================
       # Commit README changes
-      # -----------------------------------------
+      # =========================================
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
@@ -255,3 +265,4 @@ jobs:
             git commit -m "chore: update projects"
             git push
           fi
+```
