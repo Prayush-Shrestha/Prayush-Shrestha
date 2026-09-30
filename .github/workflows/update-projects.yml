@@ -1,15 +1,11 @@
-```yaml
 name: Update GitHub Projects
 
 on:
-  # Update automatically every 6 hours
   schedule:
     - cron: "0 */6 * * *"
 
-  # Allow manual updates from GitHub Actions
   workflow_dispatch:
 
-  # Update when changes are pushed to main
   push:
     branches:
       - main
@@ -17,58 +13,36 @@ on:
 permissions:
   contents: write
 
+env:
+  GITHUB_USERNAME: "Prayush-Shrestha"
+  README_FILE: "README.md"
+  PROJECTS_START: "<!-- PROJECTS:START -->"
+  PROJECTS_END: "<!-- PROJECTS:END -->"
+
 jobs:
   update-projects:
     runs-on: ubuntu-latest
 
     steps:
-      # =========================================
-      # Checkout profile repository
-      # =========================================
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # =========================================
-      # Update Projects section
-      # =========================================
       - name: Update Projects section
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
         run: |
           python <<'PY'
-
           import json
           import re
           import subprocess
+          import os
 
+          USERNAME = os.environ["GITHUB_USERNAME"]
+          README_FILE = os.environ["README_FILE"]
+          START_MARKER = os.environ["PROJECTS_START"]
+          END_MARKER = os.environ["PROJECTS_END"]
 
-          # =========================================
-          # GitHub username
-          # =========================================
-
-          USERNAME = "Prayush-Shrestha"
-
-
-          # =========================================
-          # README file
-          # =========================================
-
-          README_FILE = "README.md"
-
-
-          # =========================================
-          # README markers
-          # =========================================
-
-          START_MARKER = "<!-- PROJECTS:START -->"
-          END_MARKER = "<!-- PROJECTS:END -->"
-
-
-          # =========================================
-          # Get GitHub repositories
-          # =========================================
-
+          # Get public repositories
           command = [
               "gh",
               "repo",
@@ -79,64 +53,43 @@ jobs:
               "--visibility",
               "public",
               "--json",
-              "name,description,url,isPrivate,isFork,updatedAt"
+              "name,description,url,isPrivate,isFork,updatedAt",
           ]
-
 
           result = subprocess.run(
               command,
               capture_output=True,
               text=True,
-              check=True
+              check=True,
           )
-
 
           repositories = json.loads(result.stdout)
 
-
-          # =========================================
-          # Keep only public non-fork repositories
-          # =========================================
-
+          # Keep public, non-fork repositories only
           repositories = [
               repo
               for repo in repositories
-              if repo["isPrivate"] is False
-              and repo["isFork"] is False
+              if not repo["isPrivate"] and not repo["isFork"]
           ]
 
-
-          # =========================================
-          # Sort by most recently updated
-          # =========================================
-
+          # Show most recently updated projects first
           repositories.sort(
               key=lambda repo: repo["updatedAt"],
-              reverse=True
+              reverse=True,
           )
 
-
-          # =========================================
-          # Generate project list
-          # =========================================
-
+          # Generate README project entries
           projects = []
 
-
           for repo in repositories:
-
               name = repo["name"]
-              description = repo["description"]
+              description = (
+                  repo["description"]
+                  or "A project developed by Prayush Shrestha."
+              )
 
-
-              # Use default description if none exists
-              if not description:
-                  description = (
-                      "A project developed by Prayush Shrestha."
-                  )
-
-
-              project = f"""## {name}
+              projects.append(
+                  f"""## {name}
 
           {description}
 
@@ -144,62 +97,31 @@ jobs:
           [{name}]({repo["url"]})
 
           """
-
-
-              projects.append(project)
-
-
-          # =========================================
-          # Combine projects
-          # =========================================
+              )
 
           projects_content = "\n".join(projects)
 
-
-          # =========================================
           # Read README
-          # =========================================
-
-          with open(
-              README_FILE,
-              "r",
-              encoding="utf-8"
-          ) as file:
-
+          with open(README_FILE, "r", encoding="utf-8") as file:
               readme = file.read()
 
-
-          # =========================================
-          # Check markers
-          # =========================================
-
+          # Validate markers
           if START_MARKER not in readme:
-              raise Exception(
+              raise RuntimeError(
                   "PROJECTS:START marker not found in README.md"
               )
 
-
           if END_MARKER not in readme:
-              raise Exception(
+              raise RuntimeError(
                   "PROJECTS:END marker not found in README.md"
               )
 
-
-          # =========================================
-          # Create new Projects section
-          # =========================================
-
+          # Replace Projects section
           new_section = (
-              START_MARKER
-              + "\n\n"
-              + projects_content
-              + END_MARKER
+              f"{START_MARKER}\n\n"
+              f"{projects_content}"
+              f"{END_MARKER}"
           )
-
-
-          # =========================================
-          # Replace old Projects section
-          # =========================================
 
           pattern = (
               re.escape(START_MARKER)
@@ -207,51 +129,26 @@ jobs:
               + re.escape(END_MARKER)
           )
 
-
           updated_readme = re.sub(
               pattern,
               new_section,
               readme,
-              flags=re.DOTALL
+              flags=re.DOTALL,
           )
 
-
-          # =========================================
           # Save README
-          # =========================================
-
-          with open(
-              README_FILE,
-              "w",
-              encoding="utf-8"
-          ) as file:
-
+          with open(README_FILE, "w", encoding="utf-8") as file:
               file.write(updated_readme)
 
-
-          # =========================================
-          # Display results
-          # =========================================
-
-          print(
-              f"Found {len(repositories)} public repositories."
-          )
-
+          # Display summary
+          print(f"Found {len(repositories)} public repositories.")
 
           for repo in repositories:
               print(f"- {repo['name']}")
 
-
-          print(
-              "README Projects section updated successfully."
-          )
-
+          print("Projects section updated successfully.")
           PY
 
-
-      # =========================================
-      # Commit README changes
-      # =========================================
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
@@ -265,4 +162,3 @@ jobs:
             git commit -m "chore: update projects"
             git push
           fi
-```
