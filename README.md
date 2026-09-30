@@ -33,6 +33,14 @@ I enjoy building practical projects, creating responsive user interfaces, workin
 
 <!-- PROJECTS:START -->
 
+## wallora
+
+A project developed by Prayush Shrestha.
+
+**Repository:**  
+[wallora](https://github.com/Prayush-Shrestha/wallora)
+
+
 ## Prayush-Shrestha
 
 A project developed by Prayush Shrestha.
