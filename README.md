@@ -33,6 +33,14 @@ I enjoy building practical projects, creating responsive user interfaces, workin
 
 <!-- PROJECTS:START -->
 
+## Prayush-Shrestha
+
+A project developed by Prayush Shrestha.
+
+**Repository:**  
+[Prayush-Shrestha](https://github.com/Prayush-Shrestha/Prayush-Shrestha)
+
+
 ## rock-paper-scissors
 
 Rock Paper Scissors is a simple JavaScript game that demonstrates core concepts like functions, objects, DOM manipulation, arrays, loops, and game logic.
@@ -55,14 +63,6 @@ Hamro Khata Dashboard is a task and employee management system for tracking task
 
 **Repository:**  
 [hamrokhata-dashboard](https://github.com/Prayush-Shrestha/hamrokhata-dashboard)
-
-
-## Prayush-Shrestha
-
-A project developed by Prayush Shrestha.
-
-**Repository:**  
-[Prayush-Shrestha](https://github.com/Prayush-Shrestha/Prayush-Shrestha)
 
 
 ## Wecare-Store
