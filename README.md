@@ -33,12 +33,12 @@ I enjoy building practical projects, creating responsive user interfaces, workin
 
 <!-- PROJECTS:START -->
 
-## 2Dcarracing
+## To-Do-List
 
-A project developed by Prayush Shrestha.
+A simple and responsive To-Do List application that helps users create, manage, and track daily tasks efficiently.
 
 **Repository:**  
-[2Dcarracing](https://github.com/Prayush-Shrestha/2Dcarracing)
+[To-Do-List](https://github.com/Prayush-Shrestha/To-Do-List)
 
 
 ## Prayush-Shrestha
@@ -47,6 +47,14 @@ A project developed by Prayush Shrestha.
 
 **Repository:**  
 [Prayush-Shrestha](https://github.com/Prayush-Shrestha/Prayush-Shrestha)
+
+
+## 2Dcarracing
+
+A project developed by Prayush Shrestha.
+
+**Repository:**  
+[2Dcarracing](https://github.com/Prayush-Shrestha/2Dcarracing)
 
 
 ## wallora
