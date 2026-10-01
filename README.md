@@ -33,12 +33,12 @@ I enjoy building practical projects, creating responsive user interfaces, workin
 
 <!-- PROJECTS:START -->
 
-## wallora
+## 2Dcarracing
 
 A project developed by Prayush Shrestha.
 
 **Repository:**  
-[wallora](https://github.com/Prayush-Shrestha/wallora)
+[2Dcarracing](https://github.com/Prayush-Shrestha/2Dcarracing)
 
 
 ## Prayush-Shrestha
@@ -47,6 +47,14 @@ A project developed by Prayush Shrestha.
 
 **Repository:**  
 [Prayush-Shrestha](https://github.com/Prayush-Shrestha/Prayush-Shrestha)
+
+
+## wallora
+
+A project developed by Prayush Shrestha.
+
+**Repository:**  
+[wallora](https://github.com/Prayush-Shrestha/wallora)
 
 
 ## rock-paper-scissors
@@ -79,14 +87,6 @@ SewaPortal is a community services portal that provides easy access to services 
 
 **Repository:**  
 [SewaPortal](https://github.com/Prayush-Shrestha/SewaPortal)
-
-
-## 2Dcarracing
-
-A project developed by Prayush Shrestha.
-
-**Repository:**  
-[2Dcarracing](https://github.com/Prayush-Shrestha/2Dcarracing)
 
 
 ## Currency
