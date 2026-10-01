@@ -33,6 +33,14 @@ I enjoy building practical projects, creating responsive user interfaces, workin
 
 <!-- PROJECTS:START -->
 
+## wallora
+
+A project developed by Prayush Shrestha.
+
+**Repository:**  
+[wallora](https://github.com/Prayush-Shrestha/wallora)
+
+
 ## Prayush-Shrestha
 
 A project developed by Prayush Shrestha.
@@ -47,14 +55,6 @@ Rock Paper Scissors is a simple JavaScript game that demonstrates core concepts 
 
 **Repository:**  
 [rock-paper-scissors](https://github.com/Prayush-Shrestha/rock-paper-scissors)
-
-
-## wallora
-
-A project developed by Prayush Shrestha.
-
-**Repository:**  
-[wallora](https://github.com/Prayush-Shrestha/wallora)
 
 
 ## hamrokhata-dashboard
