@@ -33,22 +33,6 @@ I enjoy building practical projects, creating responsive user interfaces, workin
 
 <!-- PROJECTS:START -->
 
-## Prayush-Shrestha
-
-A project developed by Prayush Shrestha.
-
-**Repository:**  
-[Prayush-Shrestha](https://github.com/Prayush-Shrestha/Prayush-Shrestha)
-
-
-## To-Do-List
-
-A simple and responsive To-Do List application that helps users create, manage, and track daily tasks efficiently.
-
-**Repository:**  
-[To-Do-List](https://github.com/Prayush-Shrestha/To-Do-List)
-
-
 ## 2Dcarracing
 
 A project developed by Prayush Shrestha.
@@ -63,6 +47,22 @@ A project developed by Prayush Shrestha.
 
 **Repository:**  
 [wallora](https://github.com/Prayush-Shrestha/wallora)
+
+
+## Prayush-Shrestha
+
+A project developed by Prayush Shrestha.
+
+**Repository:**  
+[Prayush-Shrestha](https://github.com/Prayush-Shrestha/Prayush-Shrestha)
+
+
+## To-Do-List
+
+A simple and responsive To-Do List application that helps users create, manage, and track daily tasks efficiently.
+
+**Repository:**  
+[To-Do-List](https://github.com/Prayush-Shrestha/To-Do-List)
 
 
 ## rock-paper-scissors
