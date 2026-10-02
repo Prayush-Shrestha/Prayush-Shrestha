@@ -33,14 +33,6 @@ I enjoy building practical projects, creating responsive user interfaces, workin
 
 <!-- PROJECTS:START -->
 
-## 2Dcarracing
-
-A project developed by Prayush Shrestha.
-
-**Repository:**  
-[2Dcarracing](https://github.com/Prayush-Shrestha/2Dcarracing)
-
-
 ## wallora
 
 A project developed by Prayush Shrestha.
@@ -55,6 +47,14 @@ A project developed by Prayush Shrestha.
 
 **Repository:**  
 [Prayush-Shrestha](https://github.com/Prayush-Shrestha/Prayush-Shrestha)
+
+
+## 2Dcarracing
+
+A project developed by Prayush Shrestha.
+
+**Repository:**  
+[2Dcarracing](https://github.com/Prayush-Shrestha/2Dcarracing)
 
 
 ## To-Do-List
