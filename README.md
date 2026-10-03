@@ -33,6 +33,14 @@ I enjoy building practical projects, creating responsive user interfaces, workin
 
 <!-- PROJECTS:START -->
 
+## Prayush-Shrestha
+
+A project developed by Prayush Shrestha.
+
+**Repository:**  
+[Prayush-Shrestha](https://github.com/Prayush-Shrestha/Prayush-Shrestha)
+
+
 ## AI-Prediction
 
 NEPSE Direction Tracker — A live-updating dashboard that uses a Python FastAPI backend and Random Forest machine learning models to predict the next-session price direction of NEPSE-listed stocks.
@@ -55,14 +63,6 @@ A project developed by Prayush Shrestha.
 
 **Repository:**  
 [wallora](https://github.com/Prayush-Shrestha/wallora)
-
-
-## Prayush-Shrestha
-
-A project developed by Prayush Shrestha.
-
-**Repository:**  
-[Prayush-Shrestha](https://github.com/Prayush-Shrestha/Prayush-Shrestha)
 
 
 ## 2Dcarracing
