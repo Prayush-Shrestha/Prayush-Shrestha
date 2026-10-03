@@ -33,6 +33,22 @@ I enjoy building practical projects, creating responsive user interfaces, workin
 
 <!-- PROJECTS:START -->
 
+## AI-Prediction
+
+NEPSE Direction Tracker — A live-updating dashboard that uses a Python FastAPI backend and Random Forest machine learning models to predict the next-session price direction of NEPSE-listed stocks.
+
+**Repository:**  
+[AI-Prediction](https://github.com/Prayush-Shrestha/AI-Prediction)
+
+
+## bootstrap
+
+A project developed by Prayush Shrestha.
+
+**Repository:**  
+[bootstrap](https://github.com/Prayush-Shrestha/bootstrap)
+
+
 ## wallora
 
 A project developed by Prayush Shrestha.
@@ -119,14 +135,6 @@ Tic-Tac-Toe — A simple browser-based two-player game built with HTML, CSS, and
 
 **Repository:**  
 [tic-tac-toe](https://github.com/Prayush-Shrestha/tic-tac-toe)
-
-
-## AI-Prediction
-
-NEPSE Direction Tracker — A live-updating dashboard that uses a Python FastAPI backend and Random Forest machine learning models to predict the next-session price direction of NEPSE-listed stocks.
-
-**Repository:**  
-[AI-Prediction](https://github.com/Prayush-Shrestha/AI-Prediction)
 
 
 ## TaskFlow-Management-System
